@@ -56,11 +56,8 @@ int div(int numberone, int numbertwo)
 {
 	//TODO implementation
 	if(numbertwo == 0){
-	printf("0으로 나눌수 없습니다.");
-	return 0;
+		printf("0으로 나눌수 없습니다.");
+		return 0;
 	}
-
 	return numberone / numbertwo;
-	
-	
 }
