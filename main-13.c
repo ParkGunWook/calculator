@@ -42,8 +42,7 @@ int add(int numberone, int numbertwo)
  
 int sub(int numberone, int numbertwo)
 {
-	//TODO implementation
-	return 0;
+	return numbrerone - numbertwo;
 }
  
 int multi(int numberone, int numbertwo)
