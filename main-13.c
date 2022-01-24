@@ -47,8 +47,7 @@ int sub(int numberone, int numbertwo)
  
 int multi(int numberone, int numbertwo)
 {
-	//TODO implementation
-	return 0;
+	return numberone * numbertwo;
 }
  
 int div(int numberone, int numbertwo)
