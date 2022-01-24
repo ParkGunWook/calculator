@@ -1,3 +1,8 @@
+/**
+2022-01-24
+v1.0
+*/
+
 #include <stdio.h>
  
 int add(int, int);
@@ -10,7 +15,7 @@ int main(int argc, char* argv[])
 	int numberone, numbertwo, result;
 	char operator;
 	
-	printf("Please enter a expression :;;:");
+	printf("Please enter a expression ex) 1 + 2 : ");
 	scanf("%d %c %d", &numberone, &operator, &numbertwo);
 	
 	switch (operator)
@@ -41,7 +46,7 @@ int add(int numberone, int numbertwo)
  
 int sub(int numberone, int numbertwo)
 {
-	return numbrerone - numbertwo;
+	return numberone - numbertwo;
 }
  
 int multi(int numberone, int numbertwo)
