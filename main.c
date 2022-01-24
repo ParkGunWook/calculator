@@ -1,5 +1,7 @@
 #include <stdio.h>
  
+
+ //되어주라.
 int add(int, int);
 int sub(int, int);
 int div(int, int);
